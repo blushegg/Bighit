@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIGHIT MUSIC</title>
+    <link rel="stylesheet" href="CSS/bighit.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="icon" href="img/favicon32x32.png">
+</head>
+
+<body>
+        <div id="wrap">
+        <div id="header">
+            <div class="top">
+                <div class="top_bar">
+                    <div class="bar01"></div><!-- .bar01 end -->
+                    <div class="bar02"></div><!-- .bar02 end -->
+                    <div class="bar03"></div><!-- .bar03 end -->
+                    <div class="bar04"></div><!-- .bar04 end -->
+                </div><!-- .top_bar end -->
+                <h1>Bighit.</h1>
+                <div class="language_back">
+                    <p><a href="#">Welcome to the <br />
+                            NEW YEAR CLASS OF 2( )24</a>
+                    </p>
+                </div><!-- .language_back end -->
+                <ul class="language">
+                    <li class="language01">
+                        <a href="#">KR</a>
+                        <ul class="language02">
+                            <img src="img/Arrow_black.png" alt="Arrow_black">
+                            <li><a href="#">KR</a></li>
+                            <li><a href="#">EN</a></li>
+                            <li><a href="#">JP</a></li>
+                            <li><a href="#">CN</a></li>
+                        </ul><!-- .language02 end -->
+                    </li><!-- .language01 end -->
+                </ul><!-- .language end -->
+            </div><!-- .top end -->
+        </div><!-- #header end -->
+        <div class="line"></div><!-- .line end -->
+        <nav class="nav">
+            <ul class="gnb">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Artist</a></li>
+                <li><a href="#">Login</a></li>
+            </ul><!-- .gnb end -->
+        </nav><!-- .nav end -->
+
+        <div id="main">
+            <section class="section01">
+                <h2>Artist album introduction.</h2>
+                <article class="slide">
+                    <!-----------🎁왼쪽슬라이드 ----------->
+                    <article class="left_slide">
+                        <p>BTS</p>
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <figure>
+                                            <img src="img/albumleft_01.jpg" alt="albumleft_01">
+                                        </figure>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <figure>
+                                            <img src="img/albumleft_02.jpg" alt="albumleft_02">
+                                        </figure>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <figure>
+                                            <img src="img/albumleft_03.jpg" alt="albumleft_03">
+                                        </figure>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <figure>
+                                            <img src="img/albumleft_04.jpg" alt="albumleft_04">
+                                        </figure>
+                                    </a>
+                                </div>
+                            </div><!-- .swiper-wrapper end -->
+                            <div class="swiper-pagination"></div>
+                        </div><!-- .swiper mySwiper end -->
+                        <div class="album_text">
+                            <strong>ALBUM</strong>
+                            <p>bts album view all</p>
+                        </div><!-- .album_text end -->
+                    </article><!-- .left_slide end -->
+                    <!-----------🎁오른쪽슬라이드 ----------->
+                    <article class="right_slide">
+                        <p>TXT</p>
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <figure>
+                                            <img src="img/albumright_01.jpg" alt="albumright_01">
+                                        </figure>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <figure>
+                                            <img src="img/albumright_02.jpg" alt="albumright_02">
+                                        </figure>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <figure>
+                                            <img src="img/albumright_03.jpg" alt="albumright_03">
+                                        </figure>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <figure>
+                                            <img src="img/albumright_04.jpg" alt="albumright_04">
+                                        </figure>
+                                    </a>
+                                </div>
+                            </div><!-- .swiper-wrapper end -->
+                            <div class="swiper-pagination"></div>
+                        </div><!-- .swiper mySwiper end -->
+                        <div class="album_text">
+                            <strong>ALBUM</strong>
+                            <p>txt album view all</p>
+                        </div><!-- .aldim_text end -->
+                    </article><!-- .right_slide end -->
+                </article><!-- .slide end -->
+            </section><!-- section01 end -->
+            <!-- Swiper JS -->
+            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+            <!-- Initialize Swiper -->
+            <script>
+                var swiper = new Swiper(".mySwiper", {
+                    spaceBetween: 30,
+                    autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false,
+                    }, 
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                });
+            </script>
+
+            <section class="section02">
+                <div data-aos="fade-down" data-aos-anchor-placement="center-bottom">
+                    <div class="text">
+                        <h2>Artist Member</h2>
+                        <p>Jin, Suga, J-Hope, RM, Jimin, V, and Jungkook <br />
+                            Bangtan Boys, South Korean<br /></p>
+                        <span><a href="#">Introduce the members.</a></span>
+                    </div><!-- .text end -->
+                </div><!-- 🖱️.fade-up end -->
+                    <div class="frame">
+                        <!-----------🎁왼쪽아티스트이미지 ----------->
+                        <article class="left_container">
+                            <div class="line01">
+                                <figure>
+                                    <a href="#">
+                                        <img src="img/v.jpg" alt="v">
+                                        <img src="img/hover_v.jpg" alt="hover_v">
+                                        <div class="day">
+                                            <strong>V</strong>
+                                            <p>1995년 12월30일</p>
+                                        </div><!-- .day end -->
+                                    </a>
+                                </figure>
+                                <figure>
+                                    <a href="#">
+                                        <img src="img/suga.jpg" alt="suga">
+                                        <img src="img/hover_suga.jpg" alt="hover_suga">
+                                        <div class="day">
+                                            <strong>SUGA</strong>
+                                            <p>1993년 3월9일</p>
+                                        </div><!-- .day end -->
+                                    </a>
+                                </figure>
+                            </div><!-- line 01 end -->
+
+                            <div class="line02">
+                                <figure>
+                                    <a href="#">
+                                        <img src="img/rm.jpg" alt="rm">
+                                        <img src="img/hover_rm.jpg" alt="hover_rm">
+                                        <div class="day">
+                                            <strong>RM</strong>
+                                            <p>1994년 9월12일</p>
+                                        </div><!-- .day end -->
+                                    </a>
+                                </figure>
+                                <figure>
+                                    <a href="#">
+                                        <img src="img/jhop.jpg" alt="jhop">
+                                        <img src="img/hover_jhop.jpg" alt="hover_jhop">
+                                        <div class="day">
+                                            <strong>J-HOPE</strong>
+                                            <p>1994년 2월18일</p>
+                                        </div><!-- .day end -->
+                                    </a>
+                                </figure>
+                            </div><!-- line 02 end -->
+                        </article><!-- .left_container end -->
+
+                        <!-----------🎁오른쪽아티스트이미지 ----------->
+                        <article class="right_container">
+                            <div class="line03">
+                                <figure>
+                                    <a href="#">
+                                        <img src="img/jimin.jpg" alt="jimin">
+                                        <img src="img/hover_jimin.jpg" alt="hover_jimin">
+                                        <div class="day">
+                                            <strong>JIMIN</strong>
+                                            <p>1995년 10월13일</p>
+                                        </div><!-- .day end -->
+                                    </a>
+                                </figure>
+                                <figure>
+                                    <a href="#">
+                                        <img src="img/jin.jpg" alt="jin">
+                                        <img src="img/hover_jin.jpg" alt="hover_jin">
+                                        <div class="day">
+                                            <strong>JIN</strong>
+                                            <p>1992년 12월4일</p>
+                                        </div><!-- .day end -->
+                                    </a>
+                                </figure>
+                            </div><!-- .line03 end -->
+                            <div class="line04">
+                                <figure>
+                                    <a href="#">
+                                        <img src="img/jungkook.jpg" alt="jungkook">
+                                        <img src="img/hover_jungkook.jpg" alt="hover_jungkook">
+                                        <div class="day">
+                                            <strong>JUNGKOOK</strong>
+                                            <p>1997년 9월1일</p>
+                                        </div><!-- .day end -->
+                                    </a>
+                                </figure>
+                                <figure>
+                                    <img src="img/amy.jpg" alt="amy">
+                                </figure>
+                            </div><!-- .line04 end -->
+                            <div class="line05">
+                                <figure>
+                                    <a href="#">
+                                        <img src="img/bts_doorlight.jpg" alt="bts_doorlight">
+                                        <img src="img/bts_doorlight_hover.jpg" alt="bts_doorlight_hover">
+                                        <div class="day">
+                                            <strong>BTS</strong>
+                                            <p>2013년 6월13일</p>
+                                        </div><!-- .day end -->
+                                    </a>
+                                </figure>
+                            </div><!-- .line05 end -->
+
+                        </article><!-- .right_container end -->
+                    </div><!-- .frame end -->
+            </section><!-- .section02 end -->
+        </div><!-- .main end -->
+
+        <section class="section03">
+            <div class="youtube">
+                <iframe width="1920" height="1080"
+                    src="https://www.youtube.com/embed/9SmQOZWNyWE?si=AgY5HoxKi91c6-jF&autoplay=1&mute=1&loop=1&playlist=9SmQOZWNyWE"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+        </section><!-- .section03 end -->
+
+        <section class="section04">
+            <article class="container">
+                    <div class="item01">
+                    <figure>
+                        <img src="img/bighitmusic.jpg" alt="bighitmusic">
+                    </figure>
+                    <div class="info">
+                        <h3>Find Jobs.</h3>
+                        <p>Interested in <br />
+                            working with us? <br />
+                            All Nationalities <br />
+                            All Genders.</p>
+                        <img src="img/favicon32x32.png" alt="favicon32x32" class="favicon_black">
+                </div><!-- .info end -->
+                    <div class="info_hover">
+                        <div class="hover_text">
+                        <a href="#">Apply</a>
+                        <p>빅히트 뮤직은 '열정,자율,신뢰' 라는 <br />
+                            핵심가치에 기반하여 '일에서 행복을 느낄 수<br />
+                            있는 즐거운 도전이 가능한 회사' 입니다.<br />
+                            빅히트 엔터테인먼트에서 즐거운 도전을 즐길<br />
+                            열정 가득한 인재들을 기다립니다.</p>
+                        </div><!-- .hover text.end -->
+                        <img src="img/favicon_white.png" alt="favicon_white" class="favicon_white">
+                </div><!-- .info_hover end -->
+                </div><!-- .item01 end -->
+                <div class="item02">
+                    <div class="info">
+                        <h3>Audition.</h3>
+                        <p>Male, born 2005~ <br />
+                            All Nationalities<br />
+                            Vocal rap dance <br />
+                            acting and model.</p>
+                        <img src="img/favicon32x32.png" alt="favicon32x32" class="favicon">
+                    </div><!-- .info end -->
+                        <div class="info_hover">
+                            <div class="hover_text">
+                            <a href="#">Apply</a>
+                            <p>BTS와 TOMORROW X TOGETHER를 <br />
+                                배출해낸 빅히트 뮤직이 재능과 열정을<br />
+                                가진 예비 스타를 찾습니다.<br />
+                                여러분들의 꿈이 이뤄질 수 있도록<br />
+                                빅히트 뮤직이 함께 하겠습니다.<br />
+                                많은 참여 바랍니다.<br />
+                            </div><!-- .hover_text end -->
+                                <img src="img/favicon_green.png" alt="favicon_green" class="favicon">
+                        </div><!-- .info_hover -->
+                </div><!-- .item02 end -->
+                <div class="item03">
+                    <figure>
+                        <img src="img/mosaic.jpg" alt="mosaic">
+                        <img src="" alt="">
+                    </figure>
+                    <div class="info">
+                        <span>Instagram</span>
+                        <h3>Instagram.</h3>
+                        <p>bighit_ent <br />
+                            bts.bighitofficial
+                            <img src="img/bluecheck.svg" alt="bluecheck" class="bluecheck">
+                        </p>
+                        <img src="img/favicon32x32.png" alt="favicon32x32" class="favicon">
+                    </div><!-- .info end -->
+                    <div class="info_hover">
+                        <div class="hover_text">
+                        <a href="#">bighit_ent</a>
+                        <a href="#">bts.bighitofficial</a>
+                        <img src="img/favicon32x32.png" alt="favicon32x32" class="favicon">
+                    </div><!-- .info text end -->
+                    </div><!-- .info_hover -->
+                </div><!-- .item03 end -->
+            </article><!-- .container end -->
+        </section><!-- .section04 end -->
+
+    <section class="section05">
+        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <div class="goods_box">
+            <div class="title">
+                <h2>Product.</h2>
+                <a href="#">view all</a>
+            </div><!-- .title end -->    
+        <article class="list">
+            <div class="item">
+                <a href="#">
+                    <figure>
+                        <img src="img/decokit.jpg" alt="decokit">
+                        <img src="img/decokit_hover.jpg" alt="decokit_hover">
+                    </figure>
+                    <div>
+                        <span>단독판매</span>
+                        <h4>DECO KIT</h4>
+                        <strong>₩35,000</strong>
+                    </div>
+                </a>
+            </div><!-- .item end -->
+            <div class="item">
+                <a href="#">
+                    <figure>
+                        <img src="img/lightstick.jpg" alt="lightstick">
+                        <img src="img/lightstick_hover.jpg" alt="lightstick_hover">
+                    </figure>
+                    <div>
+                        <span>단독판매</span>
+                        <h4>Official Light Stick Special Edition</h4>
+                        <strong>₩39,000</strong>
+                    </div>
+                </a>
+            </div><!-- .item end -->
+            <div class="item">
+                <a href="#">
+                    <figure>
+                        <img src="img/loveryourself.jpg" alt="loveryourself">
+                        <img src="img/loveryourself_hover.jpg" alt="loveryourself_hover">
+                    </figure>
+                    <div>
+                        <span>예약판매</span>
+                        <h4>LOVE YOURSELF 轉 'Tear' LP</h4>
+                        <strong>₩52,000</strong>
+                    </div>
+                </a>
+            </div><!-- .item end -->
+            <div class="item">
+                <a href="#">
+                    <figure>
+                        <img src="img/freefallalbum.jpg" alt="freefallalbum">
+                        <img src="img/freefallalbum_hover.jpg" alt="freefallalbum_hover">
+                    </figure>
+                    <div>
+                        <span></span>
+                        <h4>The Name Chapter: FREEFALL Set</h4>
+                        <strong>₩63,000</strong>
+                    </div>
+                </a>
+            </div><!-- .item end -->
+        </article><!-- .list end -->
+    </div><!-- goods_box end -->
+        </div><!-- 🖱️.fade-up end -->
+    </section><!-- section05 end -->
+
+
+    <div id="footer">
+        <div class="marquee">
+            <div class="track">
+                <div>&nbsp;Bighit music contact us. Bighit music contact us. Bighit music contact us. Bighit music contact us. Bighit music contact us.
+                </div>
+            </div><!-- .track end -->
+        </div><!-- .marquee end -->        
+        <div class="cont">
+            <div class="footer_info">
+                <img src="img/favicon_white.png" alt="favicon_white">
+                <p>Interested in working with us?</p>
+                <strong><a href="#">audition@bighitmusic.co.kr</a></strong>
+            </div><!-- .footer_info end -->
+
+            <div class="site_button">
+            <from action="'#">
+                <label for="site">FAMILY SITE</label>
+                <select name="site" id="site">
+                    <option value="weverse">weverse</option>
+                    <option value="weverse shop">weverse shop</option>
+                    <option value="audition">audition</option>
+                    <option value="hybe">hybe</option>
+                </select>
+                <input type="submit" value="go">
+            </from>
+        </div><!-- .site_button -->
+        <div class="social">
+                <ul class="social01">
+                    <li><a href="#">Instagtam</a></li>
+                    <li><a href="#">Youtube</a></li>
+                    <li><a href="#">Twiter</a></li>
+                    <li><a href="#">Tictok</a></li>
+                    <li><a href="#">Facebook</a></li>
+                </ul><!-- .social01 end -->
+            </div><!-- .social end -->
+            <div class="copy">
+                <p>COPYRIGHT © 2024 BIG HIT MUSIC / HYBE. ALL RIGHTS RESERVED</p>
+            </div><!-- .copy end -->
+        </div><!-- .cont end -->
+    </div><!-- #footer end -->
+    
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    </div><!-- #wrap end -->
+</body>
+
+</html>
